@@ -1,6 +1,12 @@
-package codes;
+ class exampleclass {
+	public static void main(String arg[])
+	{
+		test t=new test();
+		test t2=new test(10,20);
+		t.display();
+	}
 
-
+}
 class test{
 	//Fields
 	int a=10;
@@ -28,13 +34,4 @@ class test{
 	{
 		System.out.println(a);
 	}
-}
-public class exampleclass {
-	public static void main(String arg[])
-	{
-		test t=new test();
-		test t2=new test(10,20);
-		t.display();
-	}
-
 }

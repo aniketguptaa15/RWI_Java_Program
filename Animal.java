@@ -1,9 +1,9 @@
-public class Animal {
-        public void run()
+public class Animal {                                       // main class   
+        public void run()                                   // method
         {
             System.out.println("Now I am Running");
         }
-        void eat(){
+        void eat(){                                         // method
             System.out.println("i am eating leg piece");
         }
         public static void main(String args[]){
@@ -15,7 +15,7 @@ public class Animal {
          doi.fly();
         }
 }
-class Bird{
+class Bird{                                                  // Another Class
     public void fly(){
         System.out.println("Sparrow \nI am Flying ");
     }
