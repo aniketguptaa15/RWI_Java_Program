@@ -1,9 +1,16 @@
-class Single {
+class MultiLevel {
     void eat(){
         System.out.println("Dog is eating");
     }
 }
-class  Dog extends  Single{
+class B extends MultiLevel{
+    void sleep(){
+        System.out.println("Dog Sleeping");
+    }
+    
+}
+
+class  Dog extends  B{
     void run(){
         System.out.println("Dog running");
     }
@@ -11,6 +18,8 @@ class  Dog extends  Single{
     Dog doing =new Dog();
     doing.eat();
     doing.run();
+    doing.sleep();
 
     }
 }
+
