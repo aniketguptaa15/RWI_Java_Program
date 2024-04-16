@@ -4,8 +4,7 @@ public class Sum {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter any positive number");
         int n= sc.nextInt();
-        int sum =0;
-        
+        int sum =0;    
         if(n<=1){
             System.out.println("Enter Any Positive num");
         }
@@ -13,11 +12,8 @@ public class Sum {
         {
             for(int i=1; i<=n; i++){
                 sum += i;
-
             }
             System.out.println("Sum is : "+sum);
         }
-
     }
-    
 }
